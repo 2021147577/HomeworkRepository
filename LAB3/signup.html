@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Signup</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1><span class="title">Welcome to Jaeho's Shop</span></h1>
+        <p><span class="title2">회원가입</title2></p>
+        <p>로그인창으로 이동: <button class="button" type="button" 
+            onclick="location.href='login.html'">Login</button></p>
+        <form method="get" action="">
+            <p>이름: <input type="text" name="name" placeholder="이름을 입력해주세요" autofocus required></p>
+            <p>생년월일: <input type="date" name="date" ></p>
+            <p>연락처: <input type="tel" name="num" pattern="\d{3}-\d{4}-\d{4}" placeholder="010-1234-5678"></p>
+            <p>학년: <input type="number" name="grade" min="1" max="4" step="1" value="2" required></p>
+            <P>아이디: <input type="email" name="id" placeholder="이메일주소를 입력해주세요" class="text" required></P>
+            <P>비밀번호: <input type="text" name="pasword" placeholder="비밀번호를 입력해주세요" required></P>
+            <p><input type="submit" value="회원가입" class="but">
+                <input type="reset" value="초기화" class="but"></p>
+        </form>
+    </body>
+</html>
+    
