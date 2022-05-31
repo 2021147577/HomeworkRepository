@@ -1,0 +1,9 @@
+[
+    {"name": "Americano", "price": 3000, "type": "coffee", "img": "Americano.jpg"},
+    {"name": "CaramelMacchiato", "price": 4000, "type": "coffee", "img": "CaramelMacchiato.jpg"},
+    {"name": "Chocolate", "price": 4500, "type": "drink", "img": "Chocolate.jpg"},
+    {"name": "Grains", "price": 5000, "type": "drink", "img": "Grains.jpg"},
+    {"name": "Latte", "price": 3500, "type": "coffee", "img": "Latte.jpg"},
+    {"name": "Mugwort", "price": 4500, "type": "drink", "img": "Mugwort.png"},
+    {"name": "Strawberry", "price": 4500, "type": "drink", "img": "Strawberry.png"}
+]
